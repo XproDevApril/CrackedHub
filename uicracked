@@ -6,12 +6,12 @@ local posto = Instance.new("UIStroke")
 
 fuckshit.Parent = Open
 
-LoliHub.Name = "CapyHub"
+LoliHub.Name = "LoliHub"
 LoliHub.Parent = game.CoreGui
 LoliHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Open.Name = "Open"
-Open.Parent = CapyHub
+Open.Parent = LoliHub
 Open.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 Open.BorderSizePixel = 0.5
 Open.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
@@ -2949,8 +2949,8 @@ local Stats = Library:Tab("Stats","rbxassetid://7040410130")
     local Misc = Library:Tab("Misc","rbxassetid://6034509993")
     --------------------------------------------------------------------
 Setting:Seperator("「 Credits 」")
-    Setting:Label("Made By GoOoTiE#1331 ")
-    Setting:Label("Ui Remade By Hatori.")
+    Setting:Label("Unknown Author")
+    Setting:Label("Code Cracked BY: TheAprilGamer")
      
      Setting:Label("Join My discord For More Info!")
      
@@ -2958,12 +2958,12 @@ Setting:Seperator("「 Credits 」")
      
       Setting:Button("Copy Discord Link",function()
        Update:Notification("Discord Link Copied")
-setclipboard("https://discord.gg/g2setDfUCW")
+setclipboard("https://discord.com/invite/4n5P5DHCUB")
       end)
    
     Setting:Button("Copy Youtube Link",function()
      Update:Notification("Youtube Link Copied")
-     setclipboard("https://www.youtube.com/channel/UCIHfYuVxqe7d_kUNSmfnDrg")
+     setclipboard("https://www.youtube.com/channel/UC15twzuiyw6xD1Ea6nd91mg")
     end)
     
     Setting:Seperator("「 Setting 」")
